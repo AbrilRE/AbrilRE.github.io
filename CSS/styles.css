@@ -1,0 +1,142 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: #fafafa;
+}
+
+.menu {
+  display: flex;
+  background-color: #fafafa;
+  /*justify-content: flex-start;*/
+}
+
+.barra {
+  margin: 1px;
+  padding-top: 8px;
+  padding-right: 8px;
+  padding-left: 15px;
+  font-size: 16px;
+  font-family: calibri black;
+}
+
+.a:hover,
+a:visited,
+a:link,
+a:active {
+  text-decoration: none;
+  color: black;
+}
+
+.barra > img {
+  width: 26px;
+  height: 22px;
+  /*justify-self: end;*/
+}
+
+.barra:hover,
+.redes:hover {
+  background-color: pink;
+}
+
+.cuerpo {
+  background-image: url("/IMG/cover.jpg");
+  height: 300px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-repeat: no-repeat;
+}
+
+.icono {
+  position: absolute;
+  margin-top: 5%;
+}
+
+.icono img {
+  display: block;
+  height: 100px;
+  width: 100px;
+  border: 8px solid #fafafa;
+  border-radius: 50%;
+}
+
+.titulo {
+  display: flex;
+  justify-content: center;
+  margin-top: -7.2%;
+  margin-bottom: 50px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 300%;
+}
+
+.yo {
+  display: flexbox;
+  justify-content: space-around;
+  background-image: url("/IMG/box.png");
+  padding-top: 110px;
+  padding-bottom: 110px;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-bottom: 50px;
+}
+
+.yo > img {
+  width: 100px;
+  height: 100px;
+}
+
+.info {
+  display: flex;
+  justify-content: start;
+  margin-left: 250px;
+  margin-right: 250px;
+  margin-bottom: 50px;
+}
+
+.card {
+  background-image: url("/IMG/box.png");
+  width: 200px;
+  height: 250px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.18);
+  opacity: 85%;
+  margin: 30px;
+  padding: 30px;
+  border-radius: 10px;
+  transition: 300ms all;
+}
+
+.card:hover {
+  opacity: 100%;
+  transform: scale(1.12);
+}
+
+.card > img {
+  width: 100px;
+  height: 100px;
+}
+
+.pie {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: pink;
+  padding: 50px;
+}
+
+button {
+  color: #fafafa;
+  background-color: rgb(201, 27, 100);
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  transition: 300ms all;
+}
+
+button:hover{
+  background-color:rgb(177, 21, 86);
+  transform: scale(1.02);
+}
